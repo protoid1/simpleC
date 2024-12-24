@@ -2,7 +2,9 @@
 
 namespace App\Providers\Filament;
 
+use App\Livewire\EmployeesLogin;
 use App\Livewire\EmployeesRegister;
+use App\Models\MstEmployee;
 use Filament\Http\Middleware\Authenticate;
 use Filament\Http\Middleware\DisableBladeIconComponents;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
@@ -23,12 +25,13 @@ class EmployeesPanelProvider extends PanelProvider
 {
     public function panel(Panel $panel): Panel
     {
+        
         return $panel
             ->default()
             ->registration(EmployeesRegister::class)
             ->id('employees')
             ->path('employees')
-            ->login()
+            ->login(EmployeesLogin::class)
             ->colors([
                 'primary' => Color::Amber,
             ])
@@ -40,7 +43,6 @@ class EmployeesPanelProvider extends PanelProvider
             ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\\Filament\\Widgets')
             ->widgets([
                 Widgets\AccountWidget::class,
-                Widgets\FilamentInfoWidget::class,
             ])
             ->middleware([
                 EncryptCookies::class,

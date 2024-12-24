@@ -117,7 +117,7 @@ class EmployeesRegister extends \Filament\Pages\Auth\Register
             $this->callHook('afterRegister');
 
             Notification::make()
-                ->title('Employee'.$user->employee_name.' Berhasil di Daftarkan')
+                ->title('Employee '.$user->employee_name.' Berhasil di Daftarkan')
                 ->send();
 
             return $user;
@@ -126,7 +126,7 @@ class EmployeesRegister extends \Filament\Pages\Auth\Register
         event(new Registered($user));
 
         $this->sendEmailVerificationNotification($user);
-
+        // dd($user->employee_password);
         Filament::auth()->login($user);
 
         session()->regenerate();

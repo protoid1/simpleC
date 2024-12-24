@@ -1,5 +1,7 @@
 <?php
 
+use App\Livewire\EmployeesLogin;
+
 return [
 
     /*
@@ -85,5 +87,5 @@ return [
     */
 
     'livewire_loading_delay' => 'default',
-
+    
 ];
