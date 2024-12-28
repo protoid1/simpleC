@@ -23,6 +23,8 @@ class ProductMstPosCategoriesResource extends Resource
 
     protected static ?string $navigationLabel = 'Categories';
 
+    protected static ?string $pluralModelLabel = 'Categories';
+
     public static function form(Form $form): Form
     {
         return $form
