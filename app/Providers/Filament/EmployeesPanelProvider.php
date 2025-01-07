@@ -57,6 +57,10 @@ class EmployeesPanelProvider extends PanelProvider
             ])
             ->authMiddleware([
                 Authenticate::class,
-            ])->authGuard('employees');
+            ])->authGuard('employees')
+            ->brandName('')
+            ->sidebarFullyCollapsibleOnDesktop()
+            ->topNavigation(true)
+            ;
     }
 }
