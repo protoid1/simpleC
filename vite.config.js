@@ -16,4 +16,8 @@ export default defineConfig({
             ],
         }),
     ],
+    build: {
+        // The outDir should be set to your public directory
+        outDir: 'public/build',
+    },
 })
