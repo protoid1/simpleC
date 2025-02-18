@@ -1,0 +1,36 @@
+/* Coolors Exported Palette - https://coolors.co/767265-ebe3d4-91725f-f6d9b7-4c3b31-282322 */
+
+- Tailwind
+
+{ 'dim_gray': { DEFAULT: '#767265', 100: '#181714', 200: '#2f2e28', 300: '#47453d', 400: '#5f5b51', 500: '#767265', 600: '#949081', 700: '#afaca1', 800: '#cac7c0', 900: '#e4e3e0' }, 'bone': { DEFAULT: '#EBE3D4', 100: '#3d321c', 200: '#7b6439', 300: '#b3945a', 400: '#cfbc98', 500: '#ebe3d4', 600: '#f0e9dd', 700: '#f3efe6', 800: '#f7f4ee', 900: '#fbfaf7' }, 'chamoisee': { DEFAULT: '#91725F', 100: '#1d1713', 200: '#3a2e26', 300: '#574439', 400: '#745b4c', 500: '#91725f', 600: '#aa8e7c', 700: '#bfaa9d', 800: '#d4c6be', 900: '#eae3de' }, 'light_orange': { DEFAULT: '#F6D9B7', 100: '#4c2d09', 200: '#995a13', 300: '#e3871e', 400: '#edb06a', 500: '#f6d9b7', 600: '#f8e0c5', 700: '#fae8d3', 800: '#fbf0e2', 900: '#fdf7f0' }, 'van_dyke': { DEFAULT: '#4C3B31', 100: '#100c0a', 200: '#1f1814', 300: '#2f241e', 400: '#3e3028', 500: '#4c3b31', 600: '#7c6050', 700: '#a58673', 800: '#c3aea2', 900: '#e1d7d0' }, 'raisin_black': { DEFAULT: '#282322', 100: '#080707', 200: '#110e0e', 300: '#191615', 400: '#211d1c', 500: '#282322', 600: '#584d4b', 700: '#877673', 800: '#afa4a1', 900: '#d7d1d0' } }
+
+- CSV
+
+767265,EBE3D4,91725F,F6D9B7,4C3B31,282322
+
+- With #
+
+#767265, #EBE3D4, #91725F, #F6D9B7, #4C3B31, #282322
+
+- Array
+
+["767265","EBE3D4","91725F","F6D9B7","4C3B31","282322"]
+
+- Object
+
+{"Dim gray":"767265","Bone":"EBE3D4","Chamoisee":"91725F","Light orange":"F6D9B7","Van Dyke":"4C3B31","Raisin black":"282322"}
+
+- Extended Array
+
+[{"name":"Dim gray","hex":"767265","rgb":[118,114,101],"cmyk":[0,3,14,54],"hsb":[46,14,46],"hsl":[46,8,43],"lab":[48,-1,8]},{"name":"Bone","hex":"EBE3D4","rgb":[235,227,212],"cmyk":[0,3,10,8],"hsb":[39,10,92],"hsl":[39,37,88],"lab":[90,0,8]},{"name":"Chamoisee","hex":"91725F","rgb":[145,114,95],"cmyk":[0,21,34,43],"hsb":[23,34,57],"hsl":[23,21,47],"lab":[51,9,15]},{"name":"Light orange","hex":"F6D9B7","rgb":[246,217,183],"cmyk":[0,12,26,4],"hsb":[32,26,96],"hsl":[32,78,84],"lab":[88,5,20]},{"name":"Van Dyke","hex":"4C3B31","rgb":[76,59,49],"cmyk":[0,22,36,70],"hsb":[22,36,30],"hsl":[22,22,25],"lab":[26,6,9]},{"name":"Raisin black","hex":"282322","rgb":[40,35,34],"cmyk":[0,13,15,84],"hsb":[10,15,16],"hsl":[10,8,15],"lab":[14,2,2]}]
+
+- XML
+
+<palette>
+  <color name="Dim gray" hex="767265" r="118" g="114" b="101" />
+  <color name="Bone" hex="EBE3D4" r="235" g="227" b="212" />
+  <color name="Chamoisee" hex="91725F" r="145" g="114" b="95" />
+  <color name="Light orange" hex="F6D9B7" r="246" g="217" b="183" />
+  <color name="Van Dyke" hex="4C3B31" r="76" g="59" b="49" />
+  <color name="Raisin black" hex="282322" r="40" g="35" b="34" />
+</palette>
