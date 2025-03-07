@@ -9,6 +9,7 @@
         "php": "^8.2",
         "filament/filament": "^3.2",
         "filament/forms": "^3.2",
+        "filament/widgets": "*",
         "laravel/framework": "11.37",
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",

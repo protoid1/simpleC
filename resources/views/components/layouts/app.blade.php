@@ -6,12 +6,10 @@
  
         <title>{{ $title ?? 'Page Title' }}</title>
         @livewireStyles
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-    </head>
-    <body class="bg-bone-400">
+        @vite('resources/css/app.css')
+    </head> 
+    <body class="bg-light_orange-500">
+        @livewireScripts
         {{ $slot }}
-        {{-- @yield('content') --}}
-        {{-- <livewire:home-bento> --}}
-        @livewireScriptConfig
     </body>
 </html>

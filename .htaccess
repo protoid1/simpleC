@@ -1,4 +1,4 @@
-# To prevent access to .env and other files
+<!-- # To prevent access to .env and other files
 <Files .*>
 # Apache 2.2
 <IfModule !mod_authz_core.c>
@@ -13,4 +13,4 @@ Require all denied
 
 <IfModule mod_alias.c>
 RedirectMatch 301 ^/$ http://waroeng-duasatu.rf.gd/public
-</IfModule>
+</IfModule> -->
