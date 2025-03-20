@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('mst_pur_supplier_products', function (Blueprint $table) {
+        Schema::create('trx_pur_supplier_products', function (Blueprint $table) {
             $table->string('supplier_product_id')->primary();
             $table->string('supplier_id');
             $table->string('product_id');

@@ -2,6 +2,7 @@
 
 namespace App\Livewire;
 
+use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
@@ -29,11 +30,11 @@ class PreOrders extends Component implements HasForms
         // dd(app());
         return $form
             ->schema([
-                TextInput::make('nama')->label('Nama')->columnSpan(1)
-                ,
+                TextInput::make('nama')->label('Nama'),
                 TextInput::make('phone')->label('No Handphone'),
+                Textarea::make('alamat')->label('Alamat')->columnSpanFull(),
                 // ...
-            ])
+            ])->columns(2)
             ->statePath('data');
     }
 

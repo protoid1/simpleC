@@ -8,7 +8,9 @@
         @livewireStyles
         @vite('resources/css/app.css')
     </head> 
-    <body class="bg-light_orange-500">
+    <body>
+        <div style="background-image: url('{{ asset('img/bg/pasar.png') }}')">
+         <div class="absolute inset-1 bg-black bg-opacity-50"></div>
         @livewireScripts
         {{ $slot }}
     </body>
