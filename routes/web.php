@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\GoogleAuthController;
+use App\Livewire\CountdownPreorders;
 use App\Livewire\Counter;
 use App\Livewire\EmployeesRegister;
 use App\Livewire\HomeBento;
@@ -13,6 +14,8 @@ Route::get('/info', function(){
     return phpinfo();
 });
 Route::get('/create',PreOrders::class);
+Route::get('/count',CountdownPreorders::class);
+
 
 
 // Route::get('google/login/url',[GoogleAuthController::class,'getAuthUrl']);

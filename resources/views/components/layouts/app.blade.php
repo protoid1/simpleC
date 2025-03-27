@@ -9,8 +9,8 @@
         @vite('resources/css/app.css')
     </head> 
     <body>
-        <div style="background-image: url('{{ asset('img/bg/pasar.png') }}')">
-         <div class="absolute inset-1 bg-black bg-opacity-50"></div>
+        {{-- <div style="background-image: url('{{ asset('img/bg/pasar.png') }}')"> --}}
+         {{-- <div class="absolute inset-1 bg-black bg-opacity-50"></div> --}}
         @livewireScripts
         {{ $slot }}
     </body>
